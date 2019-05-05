@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
 
   
-  <title>Hugo Blog (SEO Version)</title>
+  <title>First Post</title>
 
   
   
@@ -25,21 +25,23 @@
   
 
   
-  <meta name="author" content="StreamingRiver">
-  <meta name="description" content="Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.">
+  
+  <meta name="description" content="Planing release on 2019 May 10">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@gohugoio">
-  <meta name="twitter:title" content="Hugo Blog (SEO Version)">
-  <meta name="twitter:description" content="Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.">
-  <meta name="twitter:image" content="/images/avatar.png">
+  
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gohugoio">
+    <meta name="twitter:title" content="First Post">
+    <meta name="twitter:description" content="Planing release on 2019 May 10">
+    <meta name="twitter:image" content="/images/avatar.png">
+  
 
   
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Hugo Blog (SEO Version)">
-  <meta property="og:description" content="Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.">
-  <meta property="og:url" content="/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="First Post">
+  <meta property="og:description" content="Planing release on 2019 May 10">
+  <meta property="og:url" content="/post/first/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -48,8 +50,7 @@
 <meta name="generator" content="Hugo 0.55.5">
 
 
-<link rel="canonical" href="/">
-<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Streaming River IPTV">
+<link rel="canonical" href="/post/first/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -102,8 +103,12 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.2/dist/medium-zoom.min.js"></script>
 
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video-js.min.css">
 
 
 
@@ -125,12 +130,15 @@
     <div class="suspension">
       <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="icon icon-up" aria-hidden="true"></span></a>
       
+        
+      
     </div>
     
-     <header class="site-header">
+    
+  <header class="site-header">
   <img class="avatar" src="/images/avatar.png" alt="Avatar">
   
-  <h1 class="title">Streaming River IPTV</h1>
+  <h2 class="title">Streaming River IPTV</h2>
   
   <p class="subtitle">~ Keep It Simple &amp; Stupid ~</p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -145,9 +153,9 @@
       
       
         <li class="menu-item
-           is-active
           
-          ">
+          
+           is-active">
           <a href="/">Home</a>
         </li>
       
@@ -170,27 +178,24 @@
   </nav>
 </header>
 
-<section class="main post-list">
-  <header class="list-header offscreen">
-    <h2 class="list-label">All Posts</h2>
-  </header>
-  
-  
-   <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="/post/first/" class="post-link">First Post</a></h3>
-    <p class="post-meta">@StreamingRiver · May 5, 2019 · 1 min read</p>
-  </header>
-  
-  <p class="post-summary">Planing release on 2019 May 10</p>
-  <footer class="post-footer">
-    <a class="read-more" href="/post/first/">Read More →</a>
-  </footer>
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">First Post</h1>
+      <p class="post-meta">@StreamingRiver · May 5, 2019 · 1 min read</p>
+    </header>
+    <article class="post-content"><p>Planing release on 2019 May 10</p>
 </article>
- 
-   
-</section>
-
+    <footer class="post-footer">
+      
+      <p class="post-copyright">
+        
+      </p>
+    </footer>
+    
+      
+    
+  </section>
+  
 <footer class="site-footer">
   <p>© 2017-2019 Streaming River IPTV</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
@@ -202,8 +207,33 @@
 
 
 
+<script async src="https://cdn.jsdelivr.net/npm/video.js@7.3.0/dist/video.min.js"></script>
 
 
+
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
 
 
 
@@ -222,6 +252,7 @@
 
 
 
- 
+
+
   </body>
 </html>
