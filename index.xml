@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Streaming River IPTV</title>
-    <link>/</link>
+    <link>https://streamingriver.github.io/</link>
     <description>Recent content on Streaming River IPTV</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 05 May 2019 10:04:56 +0300</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://streamingriver.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Post</title>
-      <link>/post/first/</link>
+      <link>https://streamingriver.github.io/post/first/</link>
       <pubDate>Sun, 05 May 2019 10:04:56 +0300</pubDate>
       
-      <guid>/post/first/</guid>
+      <guid>https://streamingriver.github.io/post/first/</guid>
       <description>Planing release on 2019 May 10</description>
     </item>
     
