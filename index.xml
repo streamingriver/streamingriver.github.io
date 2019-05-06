@@ -17,7 +17,8 @@
       <pubDate>Mon, 06 May 2019 10:20:00 +0300</pubDate>
       
       <guid>https://streamingriver.github.io/post/how-to-setup/</guid>
-      <description>yum install git-core -y &amp;ndash;silent &amp;amp;&amp;amp; git clone https://github.com/streamingriver/setup-sr &amp;amp;&amp;amp; cd setup-sr &amp;amp;&amp;amp; ./setup-ansible.sh</description>
+      <description>ssh to your server as root, and paste following commad to terminal
+yum install git-core -y --silent \ git clone https://github.com/streamingriver/setup-sr \ cd setup-sr \ ./setup-ansible.sh  </description>
     </item>
     
     <item>
